@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoTrade Pro - Buy a Car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+        
+            <li><a href="index.html">Home</a></li>
+            <li><a href="buy.html">Buy a Car</a></li>
+            <li><a href="sell.html">Sell Your Car</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section id="buy" class="hero">
+        <div class="hero-content">
+            <h1>Find Your Dream Car</h1>
+            <p>Explore thousands of verified listings from trusted sellers</p>
+            
+            <div class="hero-buttons">
+                <input type="text" id="searchInput" placeholder="Search by Make, Model, or Price" style="padding: 10px; border-radius: 5px; border: none; width: 60%; margin-right: 10px;" onkeyup="filterCars()">
+                <a href="#" class="btn" style="background: green;" onclick="filterCars(); return false;">Search</a>
+            </div>
+
+            <div class="hero-info">
+                <div>
+                    <h3>Filter by Price</h3>
+                    <p>Wide range of budgets available</p>
+                </div>
+                <div>
+                    <h3>Filter by Make</h3>
+                    <p>All major brands available</p>
+                </div>
+                <div>
+                    <h3>Compare Models</h3>
+                    <p>Make the best choice</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="listings">
+        <h2>Latest Car Listings</h2>
+        <div class="featured-cars">
+            <div class="car-card">
+                <img src="https://i.ytimg.com/vi/t31EeCW6LtU/maxresdefault.jpg" alt="Car 3">
+                <h3>2023 Toyota Corolla</h3>
+                <p>7500000-pkr</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            <div class="car-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1kue7qG5MgZVzAQQuAFX4gjLzGkrCeil_pQ&s" alt="Car 2">
+                <h3>2022 Honda Civic</h3>
+                <p>7900000-pkr</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+             <div class="car-card">
+                <img src="https://static.pakwheels.com/2024/01/alto.jpg" alt="Car 4">
+                <h3>2024 Suzuki Alto VXR</h3>
+                <p>2900000-pkr</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 AutoTrade Pro. All rights reserved. | Contact: info@autotradepro.com | Phone: (+92 301 2345678</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
